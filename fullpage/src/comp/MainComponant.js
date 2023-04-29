@@ -1,3 +1,4 @@
+import zIndex from '@mui/material/styles/zIndex';
 import './MainComponant.css';
 import React from 'react';
 
@@ -176,7 +177,7 @@ const MainComponant = () => {
             </span>
             <i className="fa-sharp fa-solid fa-arrow-right qicon" />
           </a>
-          <hr />
+          <hr  />
         </div>
         <div className="grid-item">
           <a href="#">
@@ -185,7 +186,7 @@ const MainComponant = () => {
             </span>
             <i className="fa-sharp fa-solid fa-arrow-right qicon" />
           </a>
-          <hr />
+          <hr  />
         </div>
         <div className="grid-item">
           <a href="#">

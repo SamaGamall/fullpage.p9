@@ -13,6 +13,7 @@ import $ from 'jquery';
 
 import Popper from 'popper.js';
 
+
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import Userprofile from "./comp/Userprofile";
 const router = createBrowserRouter([
@@ -24,10 +25,13 @@ const router = createBrowserRouter([
   {
     path: "/pagelogin",
     element: <Pagelogin />,
+    
+    
   },
   {
     path: "/profile",
     element: <Profile />,
+  
   },
 
 ]);

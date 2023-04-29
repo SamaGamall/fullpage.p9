@@ -1,6 +1,6 @@
 import './Login.css';
 import React from 'react';
-
+import { Link, NavLink  } from "react-router-dom";
 const Login = () => {
   return (
     <div>
@@ -28,7 +28,7 @@ const Login = () => {
           </div>
           <input type="text" name="username" placeholder="Username" required />
           <input type="password" name="password" placeholder="Password" required />
-          <input type="submit" defaultValue="Login"  />
+        <Link to="/">  <input type="submit" defaultValue="Login"  /></Link>
         </div>
       </div>
     </form>

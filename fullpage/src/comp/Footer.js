@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 const Footer = () => {
   return (
     
@@ -65,7 +66,7 @@ const Footer = () => {
               <br />
               hwy., Alexandria, VA, 2233
               <br />
-              Phone +1(409)987 5874
+            <PhoneIphoneIcon /> Phone +1(409)987 5874
             </p>
             <li>
               <a href="#" style={{ color: "white" }}>

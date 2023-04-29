@@ -1,21 +1,35 @@
-import React, { useState } from 'react';
+
 import { Link, NavLink  } from "react-router-dom";
 import './Navbarinside.css';
-import {FaBars} from 'react-icons/fa';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import PersonIcon from '@mui/icons-material/Person';
+
+import MenuIcon from '@mui/icons-material/Menu';
 
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 const Navbarinside = () => {
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "icon-bar") {
+      x.className += " responsive";
+    } else {
+      x.className = "icon-bar";
+    }
+  }
   return (
   
-    <div className="icon-bar">
-    <a className="active" href="#"><i className="fa fa-home" /></a> 
-  
-    <a href="#"><i className="fa fa-globe" /></a>
-    <a href="#"><i className="fa fa-trash" /></a>
-    <a href="#"> <NotificationsIcon/></a> 
-    <a href=""><AccountBoxIcon /></a> 
+    <div className="icon-bar" id="myTopnav">
+    
+      <a href='' className="leftsidenav">home</a>
+      
+      <a href="" className="leftsidenav" >available donors</a>
+      <a href=""  className="leftsidenav" > donor center location</a>
+      <a href=""  className="leftsidenav" ><NotificationsIcon/>private blood request</a>
+    
+    <a href="" className='icon3'><PersonIcon/></a> 
+    <a href="javascript:void(0);" className="icon4" onClick={myFunction}>
+      <MenuIcon  />
+      </a>
   </div>
 
         );

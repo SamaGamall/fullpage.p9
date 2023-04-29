@@ -98,7 +98,7 @@ li.service-name{
     margin-bottom: 40px;
     padding-top: 4px;
     padding-right: 200px;
-    
+    text-decoration: none;
 }
 
 .service-header p{
@@ -121,7 +121,7 @@ li.service-name{
     padding-left: 30px;
     padding-bottom: 20px;
     font-weight: 400;
-    
+    text-decoration: none;
     justify-content: space-between;
 }
 .service-name2 {
@@ -174,6 +174,7 @@ float: right;
  @media screen and (max-width:800px) {
   
     .contant-footer{
+      width: auto;
         flex-wrap: wrap;
         justify-content: left;
          
@@ -184,7 +185,7 @@ float: right;
     }
     .service-header{
         margin-left: 0;
-        margin-right: 40px;
+        margin-right: 0px;
         
     }
     
