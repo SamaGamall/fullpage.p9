@@ -1,0 +1,30 @@
+body {
+  background: #A4152D;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #A4152D;
+}
+.btn6{
+  color: #fff;
+  text-decoration: none;
+  background:#A4152D;
+  box-shadow: none;
+  color: white;
+  padding: 1px 25px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  border-radius: 12px;
+
+ text-decoration: none;
+
+font-family: Montserrat,sans-serif;
+}
+.btn6:hover{
+  background-color:#b80d29;
+  color: white;
+  transition: 0.03s;
+  text-decoration: none;
+}

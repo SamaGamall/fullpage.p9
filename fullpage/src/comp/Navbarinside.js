@@ -26,7 +26,7 @@ const Navbarinside = () => {
       <a href=""  className="leftsidenav" > donor center location</a>
       <a href=""  className="leftsidenav" ><NotificationsIcon/>private blood request</a>
     
-    <a href="" className='icon3'><PersonIcon/></a> 
+    <Link href="" className='icon3' to="/profile"><PersonIcon/></Link> 
     <a href="javascript:void(0);" className="icon4" onClick={myFunction}>
       <MenuIcon  />
       </a>

@@ -8,6 +8,7 @@ import Home from "./pages/home";
 
 import Pagelogin from './pages/Pagelogin';
 import Profile from './pages/profile';
+import Editep from './pages/editep';
 import 'bootstrap/dist/css/bootstrap.css';
 import $ from 'jquery';
 
@@ -33,6 +34,12 @@ const router = createBrowserRouter([
     element: <Profile />,
   
   },
+  {
+    path: "/editep",
+    element: <Editep/>,
+  
+  },
+
 
 ]);
 
