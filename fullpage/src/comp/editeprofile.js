@@ -136,7 +136,7 @@ const Editeprofile = () => {
                   type="button"
                   id="submit"
                   name="submit"
-                  className="btn6 btn-secondary"
+                  className="btn6 "
                 >
                   Cancel
                 </button>
@@ -144,7 +144,7 @@ const Editeprofile = () => {
                   type="button"
                   id="submit"
                   name="submit"
-                  className="btn6 btn-primary"
+                  className="btn6"
                 >
                   Update
                 </button>
